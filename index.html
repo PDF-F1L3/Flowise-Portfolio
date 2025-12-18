@@ -6,13 +6,14 @@
     <title>Portfolio - Axel Greg Parreño</title>
     <link rel="stylesheet" href="styles.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
     
     <header>
         <div class="container">
             <nav>
-                <h1>AXEL GREG PARREÑO <span class="logo-accent">// DEV</span></h1>
+                <h1>AXEL GREG <span class="logo-accent">PARREÑO</span></h1>
                 <ul>
                     <li><a href="#home">HOME</a></li>
                     <li><a href="#about">ABOUT</a></li>
@@ -40,13 +41,14 @@
 
     <section id="about">
         <div class="container">
-            <h2>About Me</h2>
+            <h2 class="section-title">About Me</h2>
             <div class="about-content">
-                <div class="card about-card">
+                <div class="about-visual">
                     <img src="img/pfp.jpg" alt="Axel Greg Parreño Profile Picture" class="profile-img">
-                    
-                    <h3 style="text-align: center; margin-top: 10px;">Axel Greg Parreño</h3>
-                    <p style="text-align: center; color: var(--color-accent-secondary); font-weight: bold; margin-top: 5px;">Aspiring IT Professional</p>
+                    <div style="text-align: center; margin-top: 20px;">
+                        <h3>Axel Greg Parreño</h3>
+                        <p style="color: #10b981; font-weight: bold;">Aspiring IT Professional</p>
+                    </div>
                 </div>
 
                 <div class="about-text">
@@ -54,9 +56,9 @@
                     
                     <p style="margin-top: 20px;">As I approach the completion of my degree, I have developed a strong foundation in software development and systems analysis. I am passionate about leveraging technology to create efficient, user-centric applications and solving complex technical challenges.</p>
                     
-                    <p style="margin-top: 20px;">I am a fast learner, constantly exploring new frameworks and methodologies to stay current in the rapidly evolving tech landscape. I am currently seeking opportunities to apply my academic knowledge in a professional environment and contribute to meaningful projects.</p>
+                    <p style="margin-top: 20px;">I am a fast learner, constantly exploring new frameworks and methodologies like ASP.NET Core to stay current in the rapidly evolving tech landscape.</p>
                     
-                    <p style="margin-top: 20px;"><strong>Key Learning Areas:</strong> Advanced Data Structures, Full-Stack Web Development, Database Management Systems, and the Software Development Life Cycle (SDLC).</p>
+                    <p style="margin-top: 20px;"><strong>Key Learning Areas:</strong> Advanced Data Structures, Full-Stack Web Development, Database Management Systems (MySQL), and the Software Development Life Cycle (SDLC).</p>
                 </div>
             </div>
         </div>
@@ -64,21 +66,21 @@
 
     <section id="services">
         <div class="container">
-            <h2 class="section-title">TECHNICAL SKILLS & KNOWLEDGE</h2>
+            <h2 class="section-title">TECHNICAL SKILLS</h2>
             <div class="grid-layout">
-                <div class="card skill-card" data-glow-color="var(--color-accent)">
+                <div class="card skill-card">
                     <h3>💻 Programming & Web</h3>
-                    <p>Proficient in Java, C++, and Python. Strong foundational skills in HTML5, CSS3, and JavaScript (ES6+).</p>
+                    <p>Proficient in Java, C++, and Python. Experienced in ASP.NET Core, HTML5, CSS3, and JavaScript.</p>
                 </div>
 
-                <div class="card skill-card" data-glow-color="var(--color-accent-secondary)">
+                <div class="card skill-card">
                     <h3>💾 Database Systems</h3>
-                    <p>Experienced in relational database design using SQL and MySQL, focusing on normalization and query optimization.</p>
+                    <p>Experienced in relational database design using SQL and MySQL, focusing on normalization and efficient querying.</p>
                 </div>
 
-                <div class="card skill-card" data-glow-color="var(--color-accent-tertiary)">
+                <div class="card skill-card">
                     <h3>☁️ IT Infrastructure</h3>
-                    <p>Understanding of networking protocols, system administration, and cloud deployment basics.</p>
+                    <p>Understanding of networking protocols, system administration, and modern cloud deployment basics.</p>
                 </div>
             </div>
         </div>
@@ -88,34 +90,46 @@
         <div class="container">
             <h2 class="section-title">ACADEMIC PROJECTS</h2>
             <div class="grid-layout">
-                <div class="card project-card" style="border: 1px solid #3b5998;">
+                <div class="card project-card" style="border-top: 4px solid #10b981;">
+                    <h3>Sports Store Web App</h3>
+                    <p style="color: #10b981; font-weight: bold; font-size: 0.8rem; margin-bottom: 10px;">ASP.NET Core | Visual Studio</p>
+                    <p>A fully functional e-commerce platform featuring product browsing, shopping cart logic, and admin management.</p>
+                    <div style="margin-top: 15px;">
+                        <a href="https://github.com/PDF-F1L3/SportsStore.git" target="_blank" class="social-icon" style="font-size: 0.9rem; text-decoration: none;">
+                            <i class="fab fa-github"></i> Source Code
+                        </a>
+                    </div>  
+                </div>
+
+                <div class="card project-card" style="border-top: 4px solid #10b981;">
+                    <h3>Tic-Tac-Toe Game</h3>
+                    <p style="color: #10b981; font-weight: bold; font-size: 0.8rem; margin-bottom: 10px;">ASP.NET Core | C#</p>
+                    <p>A web-based implementation of the classic game, focusing on server-side logic and state management.</p>
+                    <div style="margin-top: 15px;">
+                        <a href="https://github.com/PDF-F1L3/Tic-Tac-Toe.git" target="_blank" class="social-icon" style="font-size: 0.9rem; text-decoration: none;">
+                            <i class="fab fa-github"></i> Source Code
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card project-card">
                     <h3>Capstone Thesis</h3>
-                    <p>Developing a comprehensive IT solution addressing real-world community or business needs.</p>
+                    <p>Developing a comprehensive IT solution addressing real-world community or business needs at UC.</p>
                 </div>
 
-                <div class="card project-card" style="border: 1px solid #4CAF50;">
+                <div class="card project-card">
                     <h3>Management Systems</h3>
-                    <p>Design and implementation of inventory or student management systems using Java and MySQL.</p>
+                    <p>Design and implementation of inventory or student information systems using Java and MySQL.</p>
                 </div>
 
-                <div class="card project-card" style="border: 1px solid #e53935;">
-                    <h3>Web Development</h3>
-                    <p>Responsive web applications built with modern front-end techniques and clean UI design.</p>
-                </div>
-                
-                <div class="card project-card" style="border: 1px solid #8e24aa;">
+                <div class="card project-card">
                     <h3>Algorithm Analysis</h3>
-                    <p>Implementing complex data structures and optimizing algorithms for efficiency.</p>
-                </div>
-
-                <div class="card project-card" style="border: 1px solid #fb8c00;">
-                    <h3>Network Design</h3>
-                    <p>Simulating and configuring secure network topologies using industry-standard tools.</p>
+                    <p>Implementing complex data structures and optimizing algorithms for efficiency in C++.</p>
                 </div>
                 
-                <div class="card project-card" style="border: 1px solid #c62828;">
-                    <h3>UI/UX Prototypes</h3>
-                    <p>Designing user-centric mobile and web interfaces with a focus on accessibility.</p>
+                <div class="card project-card">
+                    <h3>Network Design</h3>
+                    <p>Simulating and configuring secure network topologies using Cisco Packet Tracer.</p>
                 </div>
             </div>
         </div>
@@ -128,34 +142,63 @@
                 <input type="text" placeholder="Your Name" required>
                 <input type="email" placeholder="Your Email" required>
                 <textarea placeholder="Your Message" rows="5" required></textarea>
-                <button type="submit" class="btn btn-primary">SEND MESSAGE</button>
+                <button type="submit" class="btn btn-primary" style="width: 100%;">SEND MESSAGE</button>
             </form>
             
-            <p class="contact-email">
-                You can also reach me directly at: <span style="color: var(--color-accent-secondary); font-weight: bold;">axelgregtolero@gmail.com</span>
+            <p class="contact-email" style="margin-top: 30px; text-align: center;">
+                Reach me directly at: <span style="color: #10b981; font-weight: bold;">axelgregtolero@gmail.com</span>
             </p>
             
-            <div class="social-links">
+            <div class="social-links" style="text-align: center; margin-top: 20px;">
                 <a href="#" class="social-icon" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#" class="social-icon" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://github.com/PDF-F1L3" class="social-icon" title="GitHub"><i class="fab fa-github"></i></a>
                 <a href="#" class="social-icon" title="Twitter/X"><i class="fab fa-twitter"></i></a>
-                <a href="#" class="social-icon" title="Email"><i class="fas fa-envelope"></i></a>
+                <a href="mailto:axelgregtolero@gmail.com" class="social-icon" title="Email"><i class="fas fa-envelope"></i></a>
             </div>
         </div>
     </section>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2025 Axel Greg Parreño. All rights reserved. | Built with 💡 and <span class="highlight">Code</span>.</p>
+        <div class="container" style="text-align: center; padding: 40px 0; border-top: 1px solid rgba(255,255,255,0.1);">
+            <p>&copy; 2025 Axel Greg Parreño. All rights reserved. | Built with 💡 and <span style="color: #10b981;">Code</span>.</p>
         </div>
     </footer>
 
     <script type="module">
-    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
-    Chatbot.init({
-        chatflowid: "4cb6b024-2592-4c5d-8815-890907911577",
-        apiHost: "https://azesjijc.usw.sealos.io",
-    })
-</script>
+        import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+        Chatbot.init({
+            chatflowid: "4cb6b024-2592-4c5d-8815-890907911577",
+            apiHost: "https://azesjijc.usw.sealos.io",
+            theme: {
+                button: {
+                    backgroundColor: "#10b981",
+                    right: 20,
+                    bottom: 20,
+                    size: "medium",
+                    iconColor: "white",
+                },
+                chatWindow: {
+                    welcomeMessage: "Hi! I'm Axel's AI assistant. Ask me about his ASP.NET projects or skills!",
+                    backgroundColor: "#020617",
+                    fontSize: 16,
+                    poweredByTextColor: "#94a3b8",
+                    botMessage: {
+                        backgroundColor: "#1e293b",
+                        textColor: "#f8fafc",
+                    },
+                    userMessage: {
+                        backgroundColor: "#10b981",
+                        textColor: "#020617",
+                    },
+                    textInput: {
+                        placeholder: "Type your question...",
+                        backgroundColor: "#0f172a",
+                        textColor: "#f8fafc",
+                        sendButtonColor: "#10b981",
+                    }
+                }
+            }
+        })
+    </script>
 </body>
 </html>
