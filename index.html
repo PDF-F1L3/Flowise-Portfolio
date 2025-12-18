@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Axel Greg Parreño</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <nav>
+                <h1>AXEL GREG PARREÑO <span class="logo-accent">// DEV</span></h1>
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SKILLS</a></li>
+                    <li><a href="#portfolio">PROJECTS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <p class="hero-subtext">Fourth-Year BSIT Student at the University of Cebu</p>
+            <h2 class="hero-title">
+                Building <span class="highlight">Innovation</span> <br>
+                Through Scalable <span class="highlight">Solutions</span>.
+            </h2>
+            <div class="hero-actions">
+                <a href="#portfolio" class="btn btn-primary">VIEW PROJECTS</a>
+                <a href="#contact" class="btn btn-secondary">CONNECT WITH ME</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="card about-card">
+                    <img src="img/pfp.jpg" alt="Axel Greg Parreño Profile Picture" class="profile-img">
+                    
+                    <h3 style="text-align: center; margin-top: 10px;">Axel Greg Parreño</h3>
+                    <p style="text-align: center; color: var(--color-accent-secondary); font-weight: bold; margin-top: 5px;">Aspiring IT Professional</p>
+                </div>
+
+                <div class="about-text">
+                    <p>Hello! I'm Axel Greg Parreño, a dedicated Fourth-Year Bachelor of Science in Information Technology student at the University of Cebu.</p>
+                    
+                    <p style="margin-top: 20px;">As I approach the completion of my degree, I have developed a strong foundation in software development and systems analysis. I am passionate about leveraging technology to create efficient, user-centric applications and solving complex technical challenges.</p>
+                    
+                    <p style="margin-top: 20px;">I am a fast learner, constantly exploring new frameworks and methodologies to stay current in the rapidly evolving tech landscape. I am currently seeking opportunities to apply my academic knowledge in a professional environment and contribute to meaningful projects.</p>
+                    
+                    <p style="margin-top: 20px;"><strong>Key Learning Areas:</strong> Advanced Data Structures, Full-Stack Web Development, Database Management Systems, and the Software Development Life Cycle (SDLC).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2 class="section-title">TECHNICAL SKILLS & KNOWLEDGE</h2>
+            <div class="grid-layout">
+                <div class="card skill-card" data-glow-color="var(--color-accent)">
+                    <h3>💻 Programming & Web</h3>
+                    <p>Proficient in Java, C++, and Python. Strong foundational skills in HTML5, CSS3, and JavaScript (ES6+).</p>
+                </div>
+
+                <div class="card skill-card" data-glow-color="var(--color-accent-secondary)">
+                    <h3>💾 Database Systems</h3>
+                    <p>Experienced in relational database design using SQL and MySQL, focusing on normalization and query optimization.</p>
+                </div>
+
+                <div class="card skill-card" data-glow-color="var(--color-accent-tertiary)">
+                    <h3>☁️ IT Infrastructure</h3>
+                    <p>Understanding of networking protocols, system administration, and cloud deployment basics.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2 class="section-title">ACADEMIC PROJECTS</h2>
+            <div class="grid-layout">
+                <div class="card project-card" style="border: 1px solid #3b5998;">
+                    <h3>Capstone Thesis</h3>
+                    <p>Developing a comprehensive IT solution addressing real-world community or business needs.</p>
+                </div>
+
+                <div class="card project-card" style="border: 1px solid #4CAF50;">
+                    <h3>Management Systems</h3>
+                    <p>Design and implementation of inventory or student management systems using Java and MySQL.</p>
+                </div>
+
+                <div class="card project-card" style="border: 1px solid #e53935;">
+                    <h3>Web Development</h3>
+                    <p>Responsive web applications built with modern front-end techniques and clean UI design.</p>
+                </div>
+                
+                <div class="card project-card" style="border: 1px solid #8e24aa;">
+                    <h3>Algorithm Analysis</h3>
+                    <p>Implementing complex data structures and optimizing algorithms for efficiency.</p>
+                </div>
+
+                <div class="card project-card" style="border: 1px solid #fb8c00;">
+                    <h3>Network Design</h3>
+                    <p>Simulating and configuring secure network topologies using industry-standard tools.</p>
+                </div>
+                
+                <div class="card project-card" style="border: 1px solid #c62828;">
+                    <h3>UI/UX Prototypes</h3>
+                    <p>Designing user-centric mobile and web interfaces with a focus on accessibility.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">CONNECT WITH ME</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn btn-primary">SEND MESSAGE</button>
+            </form>
+            
+            <p class="contact-email">
+                You can also reach me directly at: <span style="color: var(--color-accent-secondary); font-weight: bold;">axelgregtolero@gmail.com</span>
+            </p>
+            
+            <div class="social-links">
+                <a href="#" class="social-icon" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-icon" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-icon" title="Twitter/X"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon" title="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Axel Greg Parreño. All rights reserved. | Built with 💡 and <span class="highlight">Code</span>.</p>
+        </div>
+    </footer>
+
+    <script type="module">
+    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+    Chatbot.init({
+        chatflowid: "4cb6b024-2592-4c5d-8815-890907911577",
+        apiHost: "https://azesjijc.usw.sealos.io",
+    })
+</script>
+</body>
+</html>
